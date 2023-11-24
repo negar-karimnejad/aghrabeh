@@ -1,0 +1,19 @@
+.popular-search {
+  margin-top: 2rem;
+}
+.popular-search .row {
+  row-gap: 18px;
+}
+.popular-search__box {
+  height: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: all 200ms ease-in-out;
+}
+.popular-search__box:hover {
+  filter: grayscale();
+}
+.popular-search img {
+  width: 100%;
+  height: 100%;
+}

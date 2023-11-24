@@ -1,0 +1,6 @@
+.services {
+  margin-top: 2rem;
+}
+.services .row {
+  row-gap: 18px;
+}

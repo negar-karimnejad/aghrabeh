@@ -1,0 +1,22 @@
+.scroll-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 3.5rem;
+  cursor: pointer;
+  color: #666;
+  background-color: var(--white-color);
+  transition: all 200ms ease-in-out;
+  box-shadow: inset -2px -4px 7px rgba(187, 187, 187, 0.379),
+    5px 11px 11px -5px rgba(131, 131, 131, 0.299);
+}
+.scroll-up:hover {
+  box-shadow: inset 5px 11px 11px -5px rgba(131, 131, 131, 0.299),
+    -2px -4px 7px rgba(187, 187, 187, 0.379);
+}

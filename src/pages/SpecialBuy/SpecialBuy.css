@@ -1,0 +1,222 @@
+.special-buy {
+  background-color: #0f0c29;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.special-buy__col {
+  background-color: var(--white-color);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+}
+.special-buy img {
+  width: 8rem;
+}
+.special-buy h2 {
+  font-size: 2.5rem;
+}
+.special-buy__caption {
+  color: #666;
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  padding: 1rem 5rem;
+}
+.special-buy__step-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  color: #666;
+}
+
+.special-buy__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.special-buy__wrapper p {
+  font-size: 1.3rem;
+}
+.special-buy__icon {
+  width: 5.5rem;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  font-size: 3rem;
+  color: #959595;
+  margin-bottom: 1rem;
+}
+.special-buy__wrapper-before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1rem;
+  top: 2rem;
+  margin: auto;
+  background-color: #efefef;
+  z-index: -1;
+}
+.green-bg-color {
+  background-color: #5cb85c;
+}
+.green-color {
+  color: #5cb85c;
+}
+.special-buy__info h4 {
+  font-family: "IRANSans-Bold";
+  font-size: 1.8rem;
+  color: #333;
+}
+.special-buy__info p {
+  font-size: clamp(1.3rem, 1.2vw, 3rem);
+  color: #666;
+  width: 84%;
+}
+.special-buy__forms {
+  margin-top: 3rem;
+  padding: 0 2rem;
+  row-gap: 20px;
+  justify-content: center;
+}
+.special-buy__form {
+  text-align: right;
+}
+.special-buy__forms label {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.special-buy__forms input {
+  background-color: transparent;
+  border: 1.5px solid #4fa34f;
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 1.3rem 1rem;
+  width: 100%;
+  font-size: 1.3rem;
+  color: #666;
+}
+.special-buy__forms input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+}
+.special-buy__form input[type="number"]::placeholder {
+  font-size: 1.3rem;
+}
+.special-buy__form {
+  position: relative;
+}
+
+.special-buy__form i {
+  content: "";
+  position: absolute;
+  right: 2%;
+  bottom: -25%;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.special-buy__buttons button {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: all 200ms ease-in-out;
+  margin-top: 3rem;
+}
+.special-buy__back-button {
+  background-color: transparent;
+  border: 1px solid #999;
+  color: #999;
+}
+.special-buy__forward-button {
+  background-color: #5cb85c;
+  color: var(--white-color);
+  border: none;
+}
+
+.special-buy__buttons button:hover {
+  background-color: #323a54;
+  color: var(--white-color);
+}
+.special-buy strong {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+}
+.special-buy__step-third-p {
+  font-size: clamp(1.2rem, 2vw, 1.5rem) !important;
+}
+.special-buy__step-upload-button {
+  border: 1px solid #999;
+  background-color: transparent;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #666;
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+.special-buy__step-upload-button input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.special-buy__step-upload-button:hover {
+  background-color: #5cb85c;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--white-color);
+}
+.posted-overly {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.posted-overly__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: var(--white-color);
+  border: 3px solid #5cb85c;
+  padding: 4rem 2rem;
+}
+.posted-overly__wrapper h4,
+.posted-overly__wrapper p {
+  margin: 1rem 0;
+}
+.posted-overly__wrapper h4 {
+  font-size: 1.8rem;
+}
+.posted-overly__wrapper p {
+  font-size: 1.3rem;
+  color: #666;
+}
+.posted-overly__wrapper button {
+  border-radius: 3rem;
+  border: 2px solid #2398ff;
+  box-shadow: 4px 4px 5px 0px #93cdff;
+  background-color: #2398ff;
+  color: var(--white-color);
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}

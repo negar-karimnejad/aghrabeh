@@ -1,0 +1,21 @@
+.header-icons {
+  box-shadow: 1px 8px 14px -6px rgba(189, 189, 189, 0.529);
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #666;
+  background-color: #f9f9f9;
+}
+.header-icons .row {
+  row-gap: 25px;
+}
+.header-icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #666;
+  font-size: 1.4rem;
+}

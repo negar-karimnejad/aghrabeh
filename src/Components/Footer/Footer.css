@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+}
+.footer__strong {
+  font-family: DimaYekan;
+  color: #ff6600;
+  font-size: 1.5rem;
+}
+.footer__strong a {
+  color: #333;
+}

@@ -1,0 +1,75 @@
+.last-products {
+  margin-top: 5rem;
+}
+.last-products__header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 1.5rem;
+}
+
+/* Start Last Products Swiper */
+.swiper2 {
+  margin-top: 5rem;
+  overflow-y: visible;
+}
+
+.last-products__swiper-slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.last-products__swiper2-title {
+  font-family: "IRANSans-Medium";
+  font-size: 1.3rem;
+  color: #444444;
+}
+.last-products__swiper2-brand {
+  color: #999;
+  direction: ltr;
+  margin: 0.5rem 0;
+}
+.last-products__swiper2-price {
+  font-family: "IRANSans-Medium";
+  color: #000;
+}
+
+.swiper2 .swiper-button-next,
+.swiper2 .swiper-button-prev {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 14, 34, 0.9);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.swiper2 .swiper-button-next {
+  left: 0;
+  top: -8rem;
+}
+.swiper2 .swiper-button-prev {
+  top: -8rem;
+  right: 91.5%;
+}
+.swiper2 .swiper-button-prev:after,
+.swiper2 .swiper-button-next:after {
+  color: var(--white-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 300ms ease-in-out;
+}
+
+.swiper2 .swiper-button-prev:hover,
+.swiper2 .swiper-button-next:hover {
+  background-color: transparent;
+  border: 2px solid rgba(0, 14, 34, 0.9);
+  transform: translateY(-5px);
+}
+.swiper2 .swiper-button-prev:hover.swiper-button-prev:after,
+.swiper2 .swiper-button-next:hover.swiper-button-next:after {
+  color: rgba(0, 14, 34, 0.9);
+  font-weight: bolder;
+}
+/* Finish Last Products Swiper */

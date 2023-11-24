@@ -1,0 +1,65 @@
+.whatsapp-btn {
+  position: relative;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+}
+.whatsapp-btn::after {
+  content: "";
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  right: 0;
+  top: 0;
+  background-color: #3ac371;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0);
+  transition: all 200ms ease-in-out;
+  animation: vibe 1.5s infinite;
+}
+
+@keyframes vibe {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  90% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+.whatsapp-btn:hover .phone {
+  transform-origin: center;
+  animation: ring 0.5s linear;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  40% {
+    transform: rotate(20deg);
+  }
+  60% {
+    transform: rotate(-20deg);
+  }
+  80% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}

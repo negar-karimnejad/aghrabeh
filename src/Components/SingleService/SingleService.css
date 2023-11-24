@@ -1,0 +1,12 @@
+.service {
+  height: 24rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: all 200ms ease-in-out;
+}
+.service:hover {
+  filter: grayscale();
+}
+.service img {
+  width: 100%;
+}

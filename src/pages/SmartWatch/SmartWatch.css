@@ -1,0 +1,11 @@
+.smart-watch {
+  margin-top: 2rem;
+}
+
+.smart-watch__box img {
+  width: 100%;
+  transition: all 200ms ease-in-out;
+}
+.smart-watch__box img:hover {
+  filter: grayscale();
+}

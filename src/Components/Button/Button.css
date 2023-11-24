@@ -1,0 +1,10 @@
+.button {
+  width: 12rem;
+  height: 3.8rem;
+  background-color: rgba(0, 14, 34, 0.9);
+  color: var(--white-color);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}

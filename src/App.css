@@ -1,0 +1,294 @@
+@font-face {
+  font-family: IRANSans;
+  src: url(../src/fonts/IRANSans/IRANSans.ttf);
+}
+@font-face {
+  font-family: IRANSans-Medium;
+  src: url(../src/fonts/IRANSans/IRANSans_Medium.ttf);
+}
+@font-face {
+  font-family: IRANSans-Bold;
+  src: url(../src/fonts/IRANSans/IRANSans_Bold.ttf);
+}
+@font-face {
+  font-family: DimaYekan;
+  src: url(../src/fonts/dimaYekan/DimaYekanTypography.ttf);
+}
+@font-face {
+  font-family: IRANSansFaNum;
+  src: url(../src/fonts/IRANSans/IRANSansFaNum.ttf);
+}
+
+/*Start Reset Styles*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  /* padding-top: 7rem; */
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*Finish Reset Styles*/
+
+/*Start Variables Styles*/
+:root {
+  --primary-font: "IRANSans";
+  --primary-color: #30336b;
+  --white-color: #fff;
+  --dark-color: #1f1f1f;
+  --box-shadow: 0 0 15px rgba(128, 128, 128, 0.486);
+}
+/*Finish Variables Styles*/
+
+/*Start Default Styles*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+  direction: rtl;
+}
+
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 400ms ease;
+}
+
+h3 {
+  font-size: 2.2rem;
+  font-family: "IRANSans-Bold";
+}
+strong { font-weight: bold; }
+.persian-font {
+  font-family: "IRANSansFaNum";
+}
+.swal2-popup {
+  font-size: 1.3rem !important;
+  padding: 1rem 0;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: #e1e1e1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+}
+/*Finish Default Styles*/
+
+/*Start Media Queries*/
+
+@media (max-width: 150px) {
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 576px) {
+  .brandsــtitle {
+    display: none;
+    color: red;
+  }
+}
+
+@media (max-width: 768px) {
+  .social-media__bg {
+    height: 5rem;
+    width: 5rem;
+  }
+  .social-media svg .whatsapp__be-green {
+    fill: #40c351;
+  }
+  .social-media svg path {
+    fill: #fff;
+  }
+  .social-media:hover {
+    transform: scale(1.1) rotate(360deg);
+  }
+}
+
+@media (max-width: 900px) {
+  .search__wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .header__logo-img {
+    display: none;
+  }
+
+  .header__menu {
+    display: block;
+  }
+  .col-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.394);
+  }
+  .cart__pricecart {
+    border: none;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__login-button {
+    display: none;
+  }
+  .header__wrapper-animation {
+    left: 6.5rem;
+    transform: scale(1.1);
+  }
+  .header__wrapper-animation::after,
+  .header__wrapper-animation::before {
+    border-width: 2.5px;
+  }
+  .header__wrapper-animation-arrow {
+    display: block;
+  }
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1400px) {
+}
+/*Finish Media Queries*/

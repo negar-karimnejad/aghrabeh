@@ -1,0 +1,16 @@
+.cart__empty {
+    background-color: var(--white-color);
+    border-radius: 2rem;
+    border: 1px solid rgb(208, 208, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+  .cart__empty p {
+    padding: 0.5rem 2rem;
+    box-shadow: 0 2px #3094ff4b;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }

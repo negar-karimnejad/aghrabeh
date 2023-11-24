@@ -1,0 +1,37 @@
+.info {
+  width: 100%;
+  background-color: var(--white-color);
+}
+.info .row {
+  row-gap: 5rem;
+}
+.info__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.info__wrapper:first-child {
+  justify-content: flex-start;
+}
+.info__wrapper:last-child {
+  justify-content: flex-end;
+}
+.info__wrapper-header {
+  width: 100%;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 1rem 0;
+}
+.info__wrapper-h3 {
+  font-family: "dimaYekan" !important;
+  color: #800000;
+  font-size: 2.8rem;
+}
+
+.info__list li {
+  margin-top: 1rem;
+}
+.info__wrapper:last-child li {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
